@@ -697,13 +697,13 @@ public class ServiceSinkhole extends VpnService implements SharedPreferences.OnS
                             String name = jasset.getString("name");
                             Log.i(TAG, "Tag " + version + " name " + name + " url " + url);
 
-                            Version current = new Version(Util.getSelfVersionName(ServiceSinkhole.this));
+//                            Version current = new Version(Util.getSelfVersionName(ServiceSinkhole.this));
                             Version available = new Version(version);
-                            if (current.compareTo(available) < 0) {
-                                Log.i(TAG, "Update available from " + current + " to " + available);
+//                            if (current.compareTo(available) < 0) {
+//                                Log.i(TAG, "Update available from " + current + " to " + available);
                                 showUpdateNotification(name, url);
-                            } else
-                                Log.i(TAG, "Up-to-date current version " + current);
+//                            } else
+//                                Log.i(TAG, "Up-to-date current version " + current);
                         }
                     }
                 }
@@ -2359,7 +2359,7 @@ public class ServiceSinkhole extends VpnService implements SharedPreferences.OnS
 
     @Override
     public void onCreate() {
-        Log.i(TAG, "Create version=" + Util.getSelfVersionName(this) + "/" + Util.getSelfVersionCode(this));
+//        Log.i(TAG, "Create version=" + Util.getSelfVersionName(this) + "/" + Util.getSelfVersionCode(this));
         startForeground(NOTIFY_WAITING, getWaitingNotification());
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);

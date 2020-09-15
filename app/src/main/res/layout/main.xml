@@ -27,60 +27,60 @@
             android:textColor="?attr/colorOff"
             android:visibility="gone" />
 
-        <LinearLayout
-            android:id="@+id/llUsage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="8dp"
-            android:visibility="gone">
+<!--        <LinearLayout-->
+<!--            android:id="@+id/llUsage"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="8dp"-->
+<!--            android:visibility="gone">-->
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="1"
-                android:text="@string/msg_usage"
-                android:textAppearance="@style/TextSmall" />
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="@string/msg_usage"-->
+<!--                android:textAppearance="@style/TextSmall" />-->
 
-            <Button
-                android:id="@+id/btnUsage"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginLeft="8dp"
-                android:layout_marginStart="8dp"
-                android:text="@android:string/ok"
-                android:textAppearance="@style/TextSmall" />
-        </LinearLayout>
+<!--            <Button-->
+<!--                android:id="@+id/btnUsage"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_marginLeft="8dp"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:text="@android:string/ok"-->
+<!--                android:textAppearance="@style/TextSmall" />-->
+<!--        </LinearLayout>-->
 
-        <LinearLayout
-            android:id="@+id/llFairEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="8dp"
-            android:visibility="gone">
+<!--        <LinearLayout-->
+<!--            android:id="@+id/llFairEmail"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="8dp"-->
+<!--            android:visibility="gone">-->
 
-            <TextView
-                android:id="@+id/tvFairEmail"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="1"
-                android:text="@string/msg_fairemail"
-                android:textAppearance="@style/TextSmall" />
+<!--            <TextView-->
+<!--                android:id="@+id/tvFairEmail"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="@string/msg_fairemail"-->
+<!--                android:textAppearance="@style/TextSmall" />-->
 
-            <Button
-                android:id="@+id/btnFairEmail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginLeft="8dp"
-                android:layout_marginStart="8dp"
-                android:text="@android:string/ok"
-                android:textAppearance="@style/TextSmall" />
-        </LinearLayout>
+<!--            <Button-->
+<!--                android:id="@+id/btnFairEmail"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_marginLeft="8dp"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:text="@android:string/ok"-->
+<!--                android:textAppearance="@style/TextSmall" />-->
+<!--        </LinearLayout>-->
 
         <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
             android:id="@+id/swipeRefresh"
@@ -96,59 +96,59 @@
                 android:scrollbars="vertical" />
         </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
-        <LinearLayout
-            android:id="@+id/llWhitelist"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="8dp"
-            android:visibility="gone">
+<!--        <LinearLayout-->
+<!--            android:id="@+id/llWhitelist"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="8dp"-->
+<!--            android:visibility="gone">-->
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="1"
-                android:text="@string/msg_whitelist"
-                android:textAppearance="@style/TextSmall" />
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="@string/msg_whitelist"-->
+<!--                android:textAppearance="@style/TextSmall" />-->
 
-            <Button
-                android:id="@+id/btnWhitelist"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginLeft="8dp"
-                android:layout_marginStart="8dp"
-                android:text="@android:string/ok"
-                android:textAppearance="@style/TextMedium" />
-        </LinearLayout>
+<!--            <Button-->
+<!--                android:id="@+id/btnWhitelist"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_marginLeft="8dp"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:text="@android:string/ok"-->
+<!--                android:textAppearance="@style/TextMedium" />-->
+<!--        </LinearLayout>-->
 
-        <LinearLayout
-            android:id="@+id/llPush"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="8dp"
-            android:visibility="gone">
+<!--        <LinearLayout-->
+<!--            android:id="@+id/llPush"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="8dp"-->
+<!--            android:visibility="gone">-->
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="1"
-                android:text="@string/msg_push"
-                android:textAppearance="@style/TextSmall" />
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="@string/msg_push"-->
+<!--                android:textAppearance="@style/TextSmall" />-->
 
-            <Button
-                android:id="@+id/btnPush"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginLeft="8dp"
-                android:layout_marginStart="8dp"
-                android:text="@android:string/ok"
-                android:textAppearance="@style/TextSmall" />
-        </LinearLayout>
+<!--            <Button-->
+<!--                android:id="@+id/btnPush"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_marginLeft="8dp"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:text="@android:string/ok"-->
+<!--                android:textAppearance="@style/TextSmall" />-->
+<!--        </LinearLayout>-->
 
         <LinearLayout
             android:id="@+id/llSystem"

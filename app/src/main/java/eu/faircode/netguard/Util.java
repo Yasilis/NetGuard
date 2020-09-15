@@ -140,6 +140,7 @@ public class Util {
         }
     }
 
+    //region checked
     public static String getSelfVersionName(Context context) {
         try {
             PackageInfo pInfo = context.getPackageManager().getPackageInfo(context.getPackageName(), 0);
@@ -157,6 +158,7 @@ public class Util {
             return -1;
         }
     }
+    //endregion
 
     public static boolean isNetworkActive(Context context) {
         ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -497,6 +499,7 @@ public class Util {
         return (calculated != null && calculated.equals(expected));
     }
 
+    //region checked
     public static void setTheme(Context context) {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
         boolean dark = prefs.getBoolean("dark_theme", false);
@@ -517,6 +520,7 @@ public class Util {
         if (context instanceof Activity && Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
             setTaskColor(context);
     }
+    //endregion
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     private static void setTaskColor(Context context) {
@@ -853,8 +857,8 @@ public class Util {
                 sb.append("\r\n\r\n\r\n\r\n");
 
                 // Get version info
-                String version = getSelfVersionName(context);
-                sb.append(String.format("NetGuard: %s/%d\r\n", version, getSelfVersionCode(context)));
+//                String version = getSelfVersionName(context);
+//                sb.append(String.format("NetGuard: %s/%d\r\n", version, getSelfVersionCode(context)));
                 sb.append(String.format("Android: %s (SDK %d)\r\n", Build.VERSION.RELEASE, Build.VERSION.SDK_INT));
                 sb.append("\r\n");
 
