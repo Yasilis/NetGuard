@@ -642,12 +642,12 @@ public class ActivityMain extends AppCompatActivity implements SharedPreferences
                 "imported".equals(name)) {
             updateApplicationList(null);
 
-            final LinearLayout llWhitelist = findViewById(R.id.llWhitelist);
+//            final LinearLayout llWhitelist = findViewById(R.id.llWhitelist);
             boolean screen_on = prefs.getBoolean("screen_on", true);
             boolean whitelist_wifi = prefs.getBoolean("whitelist_wifi", false);
             boolean whitelist_other = prefs.getBoolean("whitelist_other", false);
             boolean hintWhitelist = prefs.getBoolean("hint_whitelist", true);
-            llWhitelist.setVisibility(!(whitelist_wifi || whitelist_other) && screen_on && hintWhitelist ? View.VISIBLE : View.GONE);
+//            llWhitelist.setVisibility(!(whitelist_wifi || whitelist_other) && screen_on && hintWhitelist ? View.VISIBLE : View.GONE);
 
         } else if ("manage_system".equals(name)) {
             invalidateOptionsMenu();
