@@ -964,7 +964,7 @@ public class Util {
                 Intent sendEmail = new Intent(Intent.ACTION_SEND);
                 sendEmail.setType("message/rfc822");
                 sendEmail.putExtra(Intent.EXTRA_EMAIL, new String[]{"marcel+netguard@faircode.eu"});
-                sendEmail.putExtra(Intent.EXTRA_SUBJECT, "NetGuard " + version + " logcat");
+//                sendEmail.putExtra(Intent.EXTRA_SUBJECT, "NetGuard " + version + " logcat");
                 sendEmail.putExtra(Intent.EXTRA_TEXT, sb.toString());
                 sendEmail.putExtra(Intent.EXTRA_STREAM, uri);
                 return sendEmail;
